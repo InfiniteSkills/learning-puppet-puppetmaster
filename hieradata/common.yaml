@@ -1,0 +1,4 @@
+---
+webserver::virtual_host: 'git.infiniteskills.com'
+webserver::web_directory: '/var/www/git'
+webserver::git_repository: 'https://github.com/InfiniteSkills/git-example.git'
