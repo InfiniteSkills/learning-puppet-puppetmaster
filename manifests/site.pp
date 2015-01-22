@@ -3,6 +3,8 @@ node /^puppet/ {
 }
 
 node /^web/ {
+
+ notify{"PROVISION A PRODUCTION WEBSERVER": }
  include webserver
 
   class { '::mcollective':
