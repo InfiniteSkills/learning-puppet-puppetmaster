@@ -6,7 +6,7 @@ forge "https://forgeapi.puppetlabs.com"
 # use dependencies defined in metadata.json
 #metadata
 
-mod 'puppetlabs-apache'
+mod 'puppetlabs/apache'
 
 # use dependencies defined in Modulefile
 # modulefile
