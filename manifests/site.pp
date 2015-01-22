@@ -4,7 +4,7 @@ node /^puppet/ {
 
 node /^web/ {
 
- notify{"PROVISION A PRODUCTION WEBSERVER": }
+ notify{"PROVISION A DEVELOPMENT  WEBSERVER": }
  include webserver
 
   class { '::mcollective':
