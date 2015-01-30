@@ -5,6 +5,7 @@ node /^puppet/ {
 node /^web/ {
 
  notify{"PROVISION A DEVELOPMENT  WEBSERVER": }
+ notify{"Deploy Web Application Version: ${::app_version}": }
  include webserver
 
   class { '::mcollective':
